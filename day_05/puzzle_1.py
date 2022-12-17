@@ -1,7 +1,7 @@
 
 from re import findall
 
-with open('day_5\\input.txt') as file:
+with open('day_05\\input.txt') as file:
     # Read file
     file_text = file.read().splitlines()
     config = file_text[:8]

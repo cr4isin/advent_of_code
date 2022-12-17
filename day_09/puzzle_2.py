@@ -21,7 +21,7 @@ def move_segment(leader: list[int], follower: list[int]):
             follower[1] += delta_y/abs(delta_y) if delta_y else 0
 
 
-with open('day_9\\input.txt') as file:
+with open('day_09\\input.txt') as file:
     for line in file.read().splitlines():
         direct, amount = line.split(' ')
         for _ in range(int(amount)):

@@ -5,7 +5,7 @@ from re import findall
 # Determine the total size of the files in each directory
 position = 'C:'
 dir_size = defaultdict(int)
-with open('day_7\\input.txt') as file:
+with open('day_07\\input.txt') as file:
     for line in file.read().splitlines():
         # Move current directory
         if matches := findall('\$ cd ([\w./]+)', line):

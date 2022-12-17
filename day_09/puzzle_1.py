@@ -8,7 +8,7 @@ direction = {
     'D': (0, -1),
     'L': (-1, 0),
 }
-with open('day_9\\input.txt') as file:
+with open('day_09\\input.txt') as file:
     for line in file.read().splitlines():
         direct, amount = line.split(' ')
         for _ in range(int(amount)):

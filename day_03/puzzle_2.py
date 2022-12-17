@@ -2,7 +2,7 @@
 letters = 'abcdefghijklmnopqrstuvwxyz'
 priority = dict(zip(letters + letters.upper(), range(1, 53)))
 score = 0
-with open('day_3\\input.txt') as file:
+with open('day_03\\input.txt') as file:
     rucksacks = file.read().splitlines()
     groups = [rucksacks[3*i:3*(i+1)] for i in range(len(rucksacks)//3)]
     for group in groups:

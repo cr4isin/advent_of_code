@@ -12,7 +12,7 @@ move_key = {
     'Z': 3,
 }
 score = 0
-with open('day_2\\input.txt') as file:
+with open('day_02\\input.txt') as file:
     for line in file:
         o, p = line.strip().split(' ')
         score += play_game(move_key[o], (move_key[o] + move_key[p]) % 3 + 1)

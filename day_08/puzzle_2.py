@@ -1,5 +1,5 @@
 
-with open('day_8\\input.txt') as file:
+with open('day_08\\input.txt') as file:
     tree_grid = [list(map(int, line)) for line in file.read().splitlines()]
 n = len(tree_grid)
 m = len(tree_grid[0])
